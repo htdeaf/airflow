@@ -1,0 +1,7 @@
+data_source postgres:
+  type: postgres
+  connection:
+    host: postgres
+    username: postgres
+    password: postgres
+    database: airflow

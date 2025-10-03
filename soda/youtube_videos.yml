@@ -1,0 +1,6 @@
+checks for core.youtube_videos:
+  - row_count > 0
+  - missing_count(video_id) = 0
+  - min(view_count) >= 0
+  - min(like_count) >= 0
+  - min(comment_count) >= 0
